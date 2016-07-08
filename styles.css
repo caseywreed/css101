@@ -1,0 +1,68 @@
+body {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  border: 2px solid black;
+}
+
+label {
+  font-size: 16px;
+}
+
+.top-nav {
+  background: goldenrod;
+  height: 55px;
+}
+
+.top-nav li:first-of-type {
+  color: red;
+  font-weight: bolder;
+}
+
+.top-nav li:hover {
+  color: white;
+}
+
+.top-nav li {
+  display: inline-block;
+  list-style-type: none;
+  cursor: cell;
+  border: 1px solid rgba(0,0,0, 0.5);
+  border-radius: 3px;
+  width: 5em;
+  height: 1.5em;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+#page-id {
+  color: red;
+}
+
+.page-class {
+  color: green;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.n-child section:nth-child(even) {
+  border: 2px solid red;
+}
+
+/*.n-type section:nth-of-type(even) {
+  border: 2px solid blue;
+}*/
+
+.n-type section:nth-of-type(2n+2) {
+  border: 2px solid blue;
+}
